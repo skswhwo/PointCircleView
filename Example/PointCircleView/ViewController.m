@@ -39,11 +39,15 @@ blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
     [ranges addObject:[NSValue valueWithRange:NSMakeRange(50, 35)]];    //50~84
     [ranges addObject:[NSValue valueWithRange:NSMakeRange(85, 16)]];    //85~100
     [self.circleView setRanges:ranges];
-    [self.circleView setStrokeColors:@[UIColorFromRGB(0x01579b),
-                                       UIColorFromRGB(0x0288D1),
-                                       UIColorFromRGB(0x03A9F4),
-                                       UIColorFromRGB(0x4FC3F7)]];
-    self.circleView.radians = 180;  //0 ~ 360
+    
+    NSMutableArray *colors = [NSMutableArray array];
+    [colors addObject:UIColorFromRGB(0x01579b)];
+    [colors addObject:UIColorFromRGB(0x0288D1)];
+    [colors addObject:UIColorFromRGB(0x03A9F4)];
+    [colors addObject:UIColorFromRGB(0x4FC3F7)];
+    [self.circleView setStrokeColors:colors];
+    
+    self.circleView.radians = 360;  //0 ~ 360
     self.circleView.scales = @[@(0),@(1)];
     self.circleView.duration = 1;
     [self.view addSubview:self.circleView];

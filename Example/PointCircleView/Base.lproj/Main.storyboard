@@ -22,10 +22,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MKN-7t-VHh" customClass="PointCircleView">
-                                <rect key="frame" x="60" y="50" width="255" height="210"/>
+                                <rect key="frame" x="60" y="30" width="255" height="160"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Point" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kgu-LZ-nkd">
-                                        <rect key="frame" x="113.5" y="139" width="29" height="16"/>
+                                        <rect key="frame" x="113.5" y="89" width="29" height="16"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="16" id="kXS-ka-aIV"/>
                                         </constraints>
@@ -34,7 +34,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t8X-Ah-5kJ">
-                                        <rect key="frame" x="113.5" y="155" width="28.5" height="55"/>
+                                        <rect key="frame" x="113.5" y="105" width="28.5" height="55"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="55" id="O4X-Qd-8fb"/>
                                         </constraints>
@@ -48,7 +48,7 @@
                                     <constraint firstAttribute="bottom" secondItem="t8X-Ah-5kJ" secondAttribute="bottom" id="EQW-VK-UqR"/>
                                     <constraint firstItem="kgu-LZ-nkd" firstAttribute="centerX" secondItem="MKN-7t-VHh" secondAttribute="centerX" id="IK4-ow-2Oz"/>
                                     <constraint firstItem="t8X-Ah-5kJ" firstAttribute="top" secondItem="kgu-LZ-nkd" secondAttribute="bottom" id="LqR-Gn-nQI"/>
-                                    <constraint firstAttribute="height" constant="210" id="NUP-iK-4oJ"/>
+                                    <constraint firstAttribute="height" constant="160" id="NUP-iK-4oJ"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lfp-qL-wNs">
@@ -213,7 +213,7 @@
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="fZC-2Y-Cyf" secondAttribute="trailing" constant="20" id="42u-tJ-SbS"/>
                             <constraint firstItem="fZC-2Y-Cyf" firstAttribute="top" secondItem="iAh-Nl-QgB" secondAttribute="bottom" constant="16" id="4HU-7k-F1z"/>
-                            <constraint firstItem="MKN-7t-VHh" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="30" id="4hM-ZA-Dl6"/>
+                            <constraint firstItem="MKN-7t-VHh" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="10" id="4hM-ZA-Dl6"/>
                             <constraint firstItem="lfp-qL-wNs" firstAttribute="centerX" secondItem="fZC-2Y-Cyf" secondAttribute="centerX" id="67F-0W-ed0"/>
                             <constraint firstItem="MKN-7t-VHh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="60" id="9UH-g2-g7l"/>
                             <constraint firstItem="fZC-2Y-Cyf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="AdO-FW-f9I"/>
