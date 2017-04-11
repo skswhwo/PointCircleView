@@ -1,6 +1,6 @@
 # PointCircleView
 
-Circle animating view with a small circle point.
+Circle animating view with a small circle point.  
 ![alt text](https://github.com/skswhwo/PointCircleView/blob/master/1.jpeg "demo")
 ![alt text](https://github.com/skswhwo/PointCircleView/blob/master/2.jpeg "demo")
 ![alt text](https://github.com/skswhwo/PointCircleView/blob/master/3.jpeg "demo")
