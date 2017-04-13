@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'PointCircleView'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.platform         = :ios, '7.0'
   s.summary          = 'Circle animating view with a small circle point'
   s.homepage         = 'https://github.com/skswhwo/PointCircleView'
